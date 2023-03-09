@@ -1,0 +1,29 @@
+// Settings regroupe tous les réglages généraux
+
+@font-face {
+    font-family: "font1";
+    src: url(../Fonts/NotoSans-Light.ttf);
+  }
+  
+  $font1: font1, sans-serif;
+  $color1: rgba(162, 88, 100, 0.578);
+  $color2: blue;
+  $color3: orange;
+  
+  // MIXINS
+  
+  @mixin center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  body {
+    background: $color3;
+    font-family: $font1;
+  }
+  
+  
+  
+  
+  
